@@ -8,6 +8,7 @@ btn.addEventListener('click', (e)=>{
 	for(i = 0; i < 6; i++){
 		const value = '#'+Math.floor(Math.random()*hexArray.length)
 	}
-	// hexValue.innerHTML = value;
+	hexValue.style.backgroundColor = value;
+	hexValue.innerHTML = value;
 });
 
